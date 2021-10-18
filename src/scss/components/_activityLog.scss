@@ -1,0 +1,49 @@
+@mixin activityLog {
+  .activity {
+    color: white;
+    &__info {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__container {
+      margin-top: 1rem;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 27%;
+        height: 90%;
+        z-index: -1;
+        border-left: 3px dotted white;
+      }
+      .transaction {
+        display: grid;
+        grid-template-columns: 0.8fr 0.3fr 2fr;
+        margin-bottom: 2rem;
+
+        .timestamp {
+        }
+        .dot {
+          height: 0.6rem;
+          width: 0.6rem;
+          background-color: #f94144;
+          border-radius: 1rem;
+          //   position: relative;
+          //   &::after {
+          //     content: "";
+          //     position: absolute;
+          //     top: 0;
+          //     left: 36%;
+          //     height: 4rem;
+          //     z-index: -1;
+          //     border-left: 3px dotted white;
+          //   }
+        }
+
+        .details {
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@mixin overview {
+  .overview {
+    height: 50%;
+    width: 100%;
+    color: white;
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      .title__buttons {
+        display: flex;
+        gap: 1rem;
+        button {
+          border-radius: 2rem;
+          padding: 0.2rem 1rem;
+          border: none;
+          cursor: pointer;
+          &:nth-of-type(2) {
+            background-color: #ff4d6d;
+            color: white;
+          }
+        }
+      }
+    }
+    &__info {
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      .outer {
+        display: flex;
+        align-items: center;
+
+        .info__out {
+          width: 40%;
+        }
+        .info__in {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+      }
+    }
+    &__insights {
+      margin: 1rem 0;
+      display: flex;
+      gap: 4rem;
+      .insight {
+        div {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+      }
+    }
+    &__graph {
+      height: 30%;
+    }
+    &__expand {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      button {
+        border-radius: 2rem;
+        padding: 0.8rem 4rem;
+        border: none;
+        cursor: pointer;
+        background-color: #ff4d6d;
+        color: white;
+        transition: 0.5s ease-in-out;
+        border: 3px solid #ff4d6d;
+        font-weight: 900;
+        &:hover {
+          background-color: white;
+          color: #ff4d6d;
+        }
+      }
+    }
+  }
+}

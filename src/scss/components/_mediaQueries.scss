@@ -1,0 +1,76 @@
+@media screen and (max-width: 1024px) {
+  body {
+    .dashboard {
+      grid-template-columns: 1fr;
+      .sidebar {
+        .brand {
+          height: 100%;
+          padding: 3rem;
+          justify-content: flex-start;
+          h2 {
+            font-size: 4rem;
+          }
+        }
+        .links {
+          display: none;
+        }
+      }
+      .app {
+        .navbar {
+          &__info {
+            display: none;
+          }
+        }
+        &__grid {
+          grid-template-columns: 1fr;
+          &__1 {
+            grid-template-columns: 1fr;
+          }
+          &__2 {
+            .activity {
+              &__container {
+                &::after {
+                  left: 26.3%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .shapes__one {
+      display: none;
+    }
+    .shapes__two {
+      display: none;
+    }
+    .shapes__three {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app {
+    .navbar {
+      &__info {
+        display: none;
+      }
+    }
+    &__grid {
+      grid-template-columns: 1fr;
+      &__1 {
+        grid-template-columns: 1fr;
+      }
+      &__2 {
+        .activity {
+          &__container {
+            &::after {
+              left: 26.16%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
