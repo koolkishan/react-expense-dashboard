@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.390635f4.chunk.css",
+    "main.js": "/static/js/main.6a2ed2cc.chunk.js",
+    "main.js.map": "/static/js/main.6a2ed2cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8fec6646.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8fec6646.js.map",
+    "static/js/2.224f6834.chunk.js": "/static/js/2.224f6834.chunk.js",
+    "static/js/2.224f6834.chunk.js.map": "/static/js/2.224f6834.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.390635f4.chunk.css.map": "/static/css/main.390635f4.chunk.css.map",
+    "static/js/2.224f6834.chunk.js.LICENSE.txt": "/static/js/2.224f6834.chunk.js.LICENSE.txt",
+    "static/media/avatarImage.d37df039.jpeg": "/static/media/avatarImage.d37df039.jpeg",
+    "static/media/expenseLogo1.34e55710.png": "/static/media/expenseLogo1.34e55710.png",
+    "static/media/expenseLogo2.d77d33a0.png": "/static/media/expenseLogo2.d77d33a0.png",
+    "static/media/expenseLogo3.37a90198.png": "/static/media/expenseLogo3.37a90198.png",
+    "static/media/expenseLogo4.2bd25e04.png": "/static/media/expenseLogo4.2bd25e04.png",
+    "static/media/expenseLogo5.987abc1c.png": "/static/media/expenseLogo5.987abc1c.png",
+    "static/media/expenseLogo6.3debb643.png": "/static/media/expenseLogo6.3debb643.png",
+    "static/media/expenseLogo7.cd6fc658.png": "/static/media/expenseLogo7.cd6fc658.png",
+    "static/media/wallet1.91dd5a76.png": "/static/media/wallet1.91dd5a76.png",
+    "static/media/wallet2.183552a5.png": "/static/media/wallet2.183552a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fec6646.js",
+    "static/js/2.224f6834.chunk.js",
+    "static/css/main.390635f4.chunk.css",
+    "static/js/main.6a2ed2cc.chunk.js"
+  ]
+}
